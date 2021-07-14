@@ -9,7 +9,7 @@ public class UDMService {
     public List<UDM> getUDM(){
         return List.of(
                 new UDM(
-                        ,
+                        "snn",
                         "ausf"
                 )
         );

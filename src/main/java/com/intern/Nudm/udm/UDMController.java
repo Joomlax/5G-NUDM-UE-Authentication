@@ -4,6 +4,7 @@ package com.intern.Nudm.udm;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
+import org.springframework.web.client.RestTemplate;
 
 import java.util.List;
 
@@ -45,6 +46,7 @@ public class UDMController {
                 "à imsi-001001000000001"
 
         );
+
         return ResponseEntity.status(201).body(authenticationInfoResult);
     }
 
